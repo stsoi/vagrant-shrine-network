@@ -1,0 +1,8 @@
+---
+shrine_ip: 172.28.128.4
+i2b2_version: 1.7.08b
+jboss_app: wildfly
+jboss_owner: wildfly
+
+i2b2_allowed_ips:
+  - "{{ shrine_ip }}"

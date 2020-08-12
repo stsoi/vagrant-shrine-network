@@ -1,0 +1,7 @@
+# this is only for the ansible_local provisioner
+[i2b2]
+i2b2-hub ansible_connection=local
+i2b2-node1 ansible_connection=local
+[shrine]
+shrine-hub ansible_connection=local
+shrine-node1 ansible_connection=local

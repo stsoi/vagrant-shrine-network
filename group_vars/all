@@ -1,0 +1,17 @@
+---
+s3_artifacts_bucket: catalyst-artifacts
+
+global_users:
+  shrine:
+    uid: 1013
+    shell: /bin/bash
+    home: /home/shrine
+    comment: SHRINE User
+    email: catalyst-iteam@hms.harvard.edu
+    keys: []
+
+users:
+  - name: shrine
+    groups: []
+
+shrine_version: 1.24.2

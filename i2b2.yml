@@ -1,0 +1,5 @@
+---
+- name: configure i2b2 for shrine
+  hosts: i2b2
+  roles:
+    - i2b2-vm-shrine

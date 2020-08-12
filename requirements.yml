@@ -1,0 +1,14 @@
+---
+# to update run: ansible-galaxy install -f -p roles -r requirements.yml
+- src: https://open.med.harvard.edu/stash/scm/iteam/ansible-role-common.git
+  scm: git
+  version: master
+  name: common
+- src: https://open.med.harvard.edu/stash/scm/iteam/ansible-role-i2b2-vm-shrine.git
+  scm: git
+  version: master
+  name: i2b2-vm-shrine
+- src: https://open.med.harvard.edu/stash/scm/iteam/ansible-role-shrine.git
+  scm: git
+  version: 1.2.0
+  name: shrine

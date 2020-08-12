@@ -1,0 +1,6 @@
+---
+- name: configure shrine
+  hosts: shrine
+  roles:
+    - common
+    - shrine

@@ -1,0 +1,4 @@
+.vagrant/
+roles/common/
+roles/i2b2-vm-shrine/
+roles/shrine/
